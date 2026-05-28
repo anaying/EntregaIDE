@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -7,7 +6,6 @@ import java.util.Scanner;
 public class Empresa
 {
 	List<Repartidor> repartidores;
-	List<Cliente> clientes;
 	List<Producto> productos;
 	List<Pedido> pedidos;
 
@@ -102,8 +100,6 @@ public class Empresa
 		repartidores = new LinkedList<>(
 				Arrays.asList(new Repartidor("Don Pepito", "donpepito@gmail.com", "111111111", "Matogrande"),
 						new Repartidor("Don José", "donjose@gmail.com", "222222222", "Ciudad Vieja")));
-		clientes = new ArrayList<>(Arrays.asList(new Cliente("Fortunata", "fortunata@gmail.com", "333333333"),
-				new Cliente("Jacinta", "jacinta@gmail.com", "444444444")));
 		productos = new LinkedList<>(Arrays.asList(new Producto("Jamón", Categoria.comida, 1F),
 				new Producto("Melón", Categoria.comida, 4F), new Producto("Café", Categoria.bebida, 1.2F),
 				new Producto("Té", Categoria.bebida, 1.2F), new Producto("Cinnamon roll", Categoria.postre, 3.5F),
