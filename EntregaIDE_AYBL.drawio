@@ -185,6 +185,28 @@
         <mxCell id="KAOKZXu9z5fEesThSXn7-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="gestiona" vertex="1">
           <mxGeometry height="30" width="60" x="290" y="529" as="geometry" />
         </mxCell>
+        <mxCell id="KAOKZXu9z5fEesThSXn7-22" edge="1" parent="1" source="KAOKZXu9z5fEesThSXn7-1" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="JbUmaWRZdpL9yCn87Y7F-23" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="835" />
+            </Array>
+            <mxPoint x="390" y="810" as="sourcePoint" />
+            <mxPoint x="550" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAOKZXu9z5fEesThSXn7-23" connectable="0" parent="KAOKZXu9z5fEesThSXn7-22" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="-20" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAOKZXu9z5fEesThSXn7-24" connectable="0" parent="KAOKZXu9z5fEesThSXn7-22" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" value="1..*" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAOKZXu9z5fEesThSXn7-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="almacena" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="833" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
