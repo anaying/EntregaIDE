@@ -22,7 +22,7 @@ public class Cliente extends Usuario
 			{
 				pedidos.add(new Pedido(this));
 				pedidos.getLast().getProductos().put(producto, cantidad);
-			}			
+			}
 		} else
 		{
 			pedidos.add(new Pedido(this));
@@ -40,6 +40,5 @@ public class Cliente extends Usuario
 	{
 		return pedidos;
 	}
-	
-	
+
 }

@@ -77,8 +77,7 @@ public class App
 				{
 					p = Integer.parseInt(sc.nextLine());
 					cliente.anhadirProducto(empresa.getProductos().get(p - 1), 1);
-				}
-				catch (Exception e)
+				} catch (Exception e)
 				{
 					System.out.println("Se ha producido un error.");
 				}
@@ -91,8 +90,7 @@ public class App
 						System.out.println("Total a pagar: " + String.format("%.2f", pedido.calcularTotal()) + "€");
 					else
 						System.out.println("El pedido ya ha sido realizado.");
-				}
-				else
+				} else
 					System.out.println("No hay artículos añadidos.");
 				break;
 			default:
@@ -106,7 +104,7 @@ public class App
 	{
 		boolean error = true;
 		int op = 0;
-		
+
 		System.out.println("\n\n");
 		for (int i = 0; i < opciones.length; i++)
 		{
